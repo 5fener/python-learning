@@ -53,5 +53,12 @@ print("去重前的列表：", num)
 print("去重后的列表：", unique_num)
 
 #----练习6 坐标距离计算（元组拆包）----
+point1 = (3, 4)
+point2 = (7, 8)
+x1, y1 = point1
+x2, y2 = point2
+distance = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
+print("两点间距离：", distance)
 
-#----练习7 综合小练习----
+#----练习7 综合小练习简单通讯录----
+contacts = {}
